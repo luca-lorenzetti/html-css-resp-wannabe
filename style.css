@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 420px){
+
+  #lezioni > .row > .left, #lezioni > .row > .right{
+    width: 100%;
+    float: none;
+  }
+
+  #steps > .row > .left , #steps > .row > .central , #steps > .row > .right {
+    width: 50%;
+    float: none;
+    margin:  0 auto;
+  }
+}
+/* @media screen and (max-width: 300px){
+
+
+  #steps > .row > .left,#steps > .row > .central, #steps > .row > .right{
+    max-width: 100%;
+    text-align: center;
+  }
+} */
